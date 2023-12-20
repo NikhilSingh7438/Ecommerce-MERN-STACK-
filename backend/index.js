@@ -5,7 +5,7 @@ import ProductRoute from "./routes/ProductRoute.js";
  
 const app = express();
 mongoose.connect(
-    "mongodb+srv://nikhilsing7438:NikhilSingh@cluster0.fmr33xs.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://nikhilsing7438:<password>@cluster0.fmr33xs.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
